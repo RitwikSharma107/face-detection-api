@@ -23,7 +23,7 @@ const db = knex({
   }); 
 
 app.get("/",(req,res) => {
-    res.json(database.users);
+    res.json("It is working");
 })
 
 app.post("/signin",(req,res) => {
