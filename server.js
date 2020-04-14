@@ -21,7 +21,7 @@ const db = knex({
   }); 
 
 app.get("/",(req,res) => {
-    res.json("It is working");
+    res.json("This is Server for https://rsa-face-detection.herokuapp.com/");
 })
 
 app.post("/signin",(req,res) => {
